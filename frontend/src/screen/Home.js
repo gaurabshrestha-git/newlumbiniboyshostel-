@@ -35,8 +35,9 @@ const Home = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src="./images/hostel.jpeg"
+              className=""
+              style={{ height: "800px" }}
+              src="./images/frontviewt.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -89,7 +90,11 @@ const Home = () => {
               </p>
             </Col>
             <Col className="d-flex justify-content-center">
-              <img src="./images/hostellogo.png" alt="Hostel Frontend View" />
+              <img
+                src="./images/logo.png"
+                style={{ height: "400px", width: "400px" }}
+                alt="Hostel Frontend View"
+              />
             </Col>
           </Row>
         </Container>
